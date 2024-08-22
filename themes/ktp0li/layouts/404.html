@@ -1,0 +1,6 @@
+{{ partial "head.html" . }}
+<div id="error">
+<h1>page not found</h1>
+{{ $image := resources.Get "images/404.gif" }}
+  <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+</div>

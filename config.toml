@@ -1,0 +1,47 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = "ktp0li@home:~$"
+theme = 'ktp0li'
+copyright = "Polina Katunina"
+
+[params]
+  description = """
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac feugiat nulla. Nunc elementum, neque a vulputate elementum, enim nisi maximus lorem, non auctor ligula metus id enim. Sed fermentum sem augue, ut molestie odio semper eu. Suspendisse ornare tortor sed lectus euismod fermentum. Nulla leo nunc, pulvinar at mattis at, tempor in eros. Quisque id sodales eros, in mollis mauris. Curabitur efficitur purus sapien, a imperdiet erat bibendum vel. Pellentesque auctor, est at pellentesque tincidunt, sapien quam rhoncus est, eget vulputate mi risus eget libero. Ut nunc eros, sollicitudin quis pulvinar ac, lobortis vel ligula. Donec fermentum eros felis. Duis tincidunt, ex at facilisis ultrices, metus nisi hendrerit arcu, a convallis nibh lacus ut orci.
+
+Maecenas elementum semper ex. Curabitur sollicitudin mauris a mi malesuada, vel aliquam est accumsan. Sed pretium vulputate eros, ut viverra nisl tristique sit amet. Aenean vel scelerisque felis, id auctor nisl. Cras porttitor vel ex quis aliquam. Fusce finibus bibendum convallis. Aenean vitae augue ornare nulla luctus posuere et eget orci. Aenean rhoncus quam sed nisi tempor consectetur. Sed sed elit et ante faucibus porttitor. Fusce vel lacus eu enim semper suscipit. Sed laoreet cursus vehicula.
+
+Etiam nec fringilla lorem. Donec at mauris vel velit lobortis faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum risus nulla, consectetur eget dolor sed, pretium venenatis ante. Nunc scelerisque ut ante pellentesque interdum. Suspendisse non volutpat ante. In placerat urna leo, sit amet bibendum orci congue vitae. Maecenas elementum eleifend venenatis. Pellentesque dignissim mattis lorem ut placerat. Sed est leo, consectetur id sagittis ac, lacinia eu ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur interdum tincidunt turpis ac consequat. Morbi semper sagittis nisi ac malesuada. Sed sapien est, iaculis ac varius nec, venenatis ut urna.
+
+"""
+  title = "ktp0li@home:~$"
+  showprojectslist = true
+  projectsUrl = "https://github.com/ktp0li"
+
+[[menu.main]]
+  name = "/root"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "/cv"
+  url = "/cv"
+  weight = 2
+
+[[params.social]]
+  name = "github"
+  link = "https://github.com/ktp0li"
+
+[[params.social]]
+  name = "linkedin"
+  link = "https://www.linkedin.com/in/monkeywzr/"
+
+[[params.social]]
+  name = "email"
+  link = "polina0katunina@gmail.com" 
+
+[params.projects]
+  SectionTitle = "smol projects"
+
+[params.lectures]
+  SectionTitle = "lectures & papers"
