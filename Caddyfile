@@ -1,0 +1,12 @@
+{
+	auto_https off
+}
+http://ktp0li.su {
+	root * /srv
+	file_server
+
+    handle_errors {
+	rewrite * /{http.error.status_code}.html
+        file_server
+    }
+}
